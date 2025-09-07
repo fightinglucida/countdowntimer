@@ -1,0 +1,10 @@
+# Noise Texture Placeholder
+
+This file should contain a noise texture for Vanta.js clouds effect.
+
+You can:
+1. Download a noise texture from: https://www.vantajs.com/gallery/noise.png
+2. Or create your own noise texture
+3. Or comment out the texturePath in VantaBackground.tsx if you don't have one
+
+The noise texture helps create more realistic cloud patterns.

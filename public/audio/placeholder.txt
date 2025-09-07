@@ -1,0 +1,16 @@
+This directory should contain the following audio files:
+
+- rain.mp3 (Rain sound for relaxation)
+- cafe.mp3 (Coffee shop ambient sound) 
+- forest.mp3 (Forest birds chirping sound)
+- reminder.mp3 (Alert sound when timer completes)
+
+Please add your own MP3 files with these exact names for the application to work properly.
+
+You can find royalty-free audio files from:
+- Freesound.org
+- Zapsplat.com
+- YouTube Audio Library
+- Pixabay Audio
+
+For testing, you can use any MP3 files and rename them accordingly.
