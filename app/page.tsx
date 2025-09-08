@@ -127,5 +127,3 @@ export default function WhiteNoise() {
     </>
   )
 }
-
-export default WhiteNoise
