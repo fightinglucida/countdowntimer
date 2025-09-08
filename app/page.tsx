@@ -6,7 +6,7 @@ import EnhancedVantaBackground from './components/EnhancedVantaBackground'
 import NewCountdownTimer from './components/NewCountdownTimer'
 import CountdownCompletionModal from './components/CountdownCompletionModal'
 
-export default function OptimizedHome() {
+export default function WhiteNoise() {
   const [showCompletionModal, setShowCompletionModal] = useState(false)
   const [completedTimerTitle, setCompletedTimerTitle] = useState('')
   const [currentBackground, setCurrentBackground] = useState('cells') // 默认森林主题
@@ -127,3 +127,5 @@ export default function OptimizedHome() {
     </>
   )
 }
+
+export default WhiteNoise

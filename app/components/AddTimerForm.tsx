@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { WhiteNoise } from '../page'
+import WhiteNoise from '../page'
 
 interface AddTimerFormProps {
   onAddTimer: (title: string, duration: number, whiteNoise?: string, mode?: 'countdown' | 'scheduled', scheduledTime?: number) => void
