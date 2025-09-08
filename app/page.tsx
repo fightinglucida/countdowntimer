@@ -6,7 +6,27 @@ import EnhancedVantaBackground from './components/EnhancedVantaBackground'
 import NewCountdownTimer from './components/NewCountdownTimer'
 import CountdownCompletionModal from './components/CountdownCompletionModal'
 
-export default function WhiteNoise() {
+// 类型定义
+export interface Timer {
+  id: string
+  title: string
+  duration: number // in seconds
+  remainingTime: number
+  isRunning: boolean
+  whiteNoise?: string
+  createdAt: number
+  mode: 'countdown' | 'scheduled' // 倒计时模式 or 定时模式
+  scheduledTime?: number // 定时模式的目标时间戳
+}
+
+export interface WhiteNoise {
+  id: string
+  name: string
+  file: string
+  isActive: boolean
+}
+
+export default function OptimizedHome() {
   const [showCompletionModal, setShowCompletionModal] = useState(false)
   const [completedTimerTitle, setCompletedTimerTitle] = useState('')
   const [currentBackground, setCurrentBackground] = useState('cells') // 默认森林主题
